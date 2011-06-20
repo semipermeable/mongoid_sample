@@ -1,0 +1,13 @@
+.notes
+  %ul
+    = render @notes
+
+.add_note
+  = form_for(@newnote) do |f|
+    = f.label :author
+    = f.text_field :author
+    %br
+    = f.label :text
+    = f.text_area :text
+    %br
+    = f.submit "Add note"
