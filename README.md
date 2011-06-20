@@ -1,0 +1,5 @@
+Mongoid Sample Application
+--------------------------
+
+This is a simple Rails 3 app that uses Mongo(id) and is set up to work with
+Tddium.
