@@ -5,3 +5,4 @@ tmp/
 *.swp
 .tddium.staging
 .tddium
+.tddium-deploy-key.staging
