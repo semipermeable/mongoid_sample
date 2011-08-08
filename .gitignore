@@ -6,3 +6,4 @@ tmp/
 .tddium.staging
 .tddium
 .tddium-deploy-key.staging
+.tddium-deploy-key
