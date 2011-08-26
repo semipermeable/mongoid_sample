@@ -1,3 +1,5 @@
+require 'capybara'
+
 Capybara.register_driver :tddium do |app|
    Capybara::Selenium::Driver.new(app, :browser => :remote)
 end
