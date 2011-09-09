@@ -31,6 +31,7 @@ gem "haml"
 group :development, :test do
   gem "rspec"
   gem "cucumber-rails"
+  gem "selenium-webdriver", ">=2.5.0"
   gem "pickle"
   gem "capybara"
   gem "database_cleaner"
