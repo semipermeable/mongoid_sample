@@ -31,7 +31,8 @@ gem "haml"
 group :development, :test do
   gem "cucumber-rails"
   gem "pickle"
-  gem "capybara-webkit"
+  gem "capybara-webkit", ">=0.6.1"
+  gem "capybara", ">=1.0.1"
   gem "database_cleaner"
   gem "factory_girl_rails"
 end
