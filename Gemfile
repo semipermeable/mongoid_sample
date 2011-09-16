@@ -35,3 +35,8 @@ group :development, :test do
   gem "database_cleaner"
   gem "factory_girl_rails"
 end
+
+group :tddium_ignore do
+  gem 'growl_notify'
+  gem 'rb-fsevent'
+end
