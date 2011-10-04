@@ -5,3 +5,5 @@ tmp/
 *.swp
 .tddium.staging
 .tddium-deploy-key.staging
+/tmp/aruba/repos/mongoid_sample/.tddium.staging
+/tmp/aruba/repos/mongoid_sample/.tddium-deploy-key.staging
