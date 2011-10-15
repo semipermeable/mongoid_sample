@@ -6,4 +6,4 @@ Tddium.  It is used as part of automated qualification for Tddium.
 
 It contains very simple cucumber tests that use capybara-webkit.
 
-It contains a basic tddium:db_hook for mongoid, but otherwise triggers default configuration.
+It contains a basic tddium:db_hook for mongoid, but otherwise triggers default configuration using mongoid.yml.
