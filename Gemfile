@@ -36,7 +36,7 @@ group :development, :test do
   gem "factory_girl_rails"
 end
 
-group :tddium_ignore do
-  gem 'growl_notify'
-  gem 'rb-fsevent'
-end
+#group :tddium_ignore do
+#  gem 'growl_notify'
+#  gem 'rb-fsevent'
+#end
