@@ -36,16 +36,5 @@ group :development, :test do
   gem "capybara", ">=1.0.1"
   gem "database_cleaner"
   gem "factory_girl_rails"
+  gem "tddium_client", :git => "git@github.com:semipermeable/tddium_client.git"
 end
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
