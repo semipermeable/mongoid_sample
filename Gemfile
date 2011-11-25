@@ -38,3 +38,8 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "tddium", :git=>"git@github.com:semipermeable/tddium.git"
 end
+
+#group :tddium_ignore do
+#  gem 'growl_notify'
+#  gem 'rb-fsevent'
+#end
