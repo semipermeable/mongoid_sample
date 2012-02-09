@@ -4,7 +4,6 @@ Feature: Manage notes
   Scenario: List notes
     Given a note exists with author: "jay", text: "note test"
     When I go to the notes page
-    And I wait for 2 minutes
     Then I should see "jay"
 
   @javascript

@@ -31,6 +31,10 @@ module WithinHelpers
 end
 World(WithinHelpers)
 
+When /^I wait for 2 minutes$/ do
+  sleep 120
+end
+
 # Single-line step scoper
 When /^(.*) within ([^:]+)$/ do |step, parent|
   with_scope(parent) { When step }
