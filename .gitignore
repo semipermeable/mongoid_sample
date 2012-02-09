@@ -3,8 +3,4 @@ db/*.sqlite3
 log/*.log
 tmp/
 *.swp
-.tddium.staging
-.tddium-deploy-key.staging
-.tddium
-.tddium-deploy-key
 .tddium*
