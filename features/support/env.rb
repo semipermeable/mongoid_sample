@@ -29,7 +29,7 @@ Capybara.default_selector = :css
 #
 ActionController::Base.allow_rescue = false
 
-trapr( "TERM") do
+trap ("TERM") do
   puts "ignoring TERM"
 end
 
