@@ -7,6 +7,8 @@ ensure
     server.close if server
 end
 
+puts ENV["SET_BY_TDDIUM_CONFIG"]
+
 if ENV['TDDIUM'] then
     Capybara.server_port = find_available_port
 end
