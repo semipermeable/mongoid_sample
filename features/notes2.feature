@@ -5,6 +5,7 @@ Feature: Manage notes
     Given a note exists with author: "jay", text: "note test"
     When I go to the notes page
     Then I should see "jay"
+    And I should print the test environment variable
 
   @javascript
   Scenario: Add a note
