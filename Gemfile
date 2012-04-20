@@ -30,18 +30,10 @@ gem "haml"
 # and rake tasks are available in development mode:
 group :development, :test do
   gem "cucumber", "=1.0.3"
-  gem "cucumber-rails", ">=1.0.0"
+  gem "cucumber-rails", ">=1.0.0", :require => false
   gem "pickle"
   gem "capybara-webkit", ">=0.6.1"
   gem "capybara", ">=1.0.1"
   gem "database_cleaner"
   gem "factory_girl_rails"
 end
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
