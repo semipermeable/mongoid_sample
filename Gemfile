@@ -30,7 +30,7 @@ gem "haml"
 # and rake tasks are available in development mode:
 group :development, :test do
   gem "rspec"
-  gem "cucumber-rails"
+  gem "cucumber-rails", :require=>false
   gem "selenium-webdriver", ">=2.5.0"
   gem "pickle"
   gem "capybara"
