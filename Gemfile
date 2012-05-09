@@ -29,20 +29,11 @@ gem "haml"
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-  gem "cucumber", "=1.0.3"
-  gem "cucumber-rails", ">=1.0.0"
+  gem "cucumber", "=1.0.6"
+  gem "cucumber-rails", ">=1.0.6", :require=>false
   gem "pickle"
   gem "capybara-webkit", ">=0.6.1"
   gem "capybara", ">=1.0.1"
   gem "database_cleaner"
   gem "factory_girl_rails"
 end
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-##bar
