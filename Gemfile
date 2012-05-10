@@ -8,6 +8,7 @@ gem 'rails', '3.0.9'
 gem "mongoid"
 gem "bson_ext"
 gem "haml"
+gem "gsl", "1.14.7"
 
 # Use unicorn as the web server
 # gem 'unicorn'
