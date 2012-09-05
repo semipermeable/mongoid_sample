@@ -1,4 +1,4 @@
-describe Foo do
+describe "Foo" do
   it "should not timeout" do
     sleep 1
   end
