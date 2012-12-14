@@ -1,3 +1,8 @@
 ---
 :tddium:
-  :timeout: 60
+  :hooks:
+    :pre: echo "Pre Hook"
+    :worker: bundle exec rake db:setup
+    :post: echo "Post Hook"
+    :post_worker: printenv TDDIUM_MODE
+    :post_build: printenv TDDIUM_BUILD_STATUS
